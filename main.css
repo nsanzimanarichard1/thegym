@@ -1,0 +1,146 @@
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.navbar {
+    width: 100%;
+    padding: 26px 60px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 12px;
+}
+
+.hero {
+    background-image: url('./images/helo.png');
+    height: 500px;
+    background-size: cover; /* Ensures the image covers the entire width */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 103px;
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 35px;
+    padding: 12px 30px;
+    background: #52647E;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.journey {
+    background: #618379;
+    padding: 57px 0;
+}
+
+h2 {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 57px;
+}
+
+.journey-list {
+    display: flex;
+    width: 90%;
+    margin: 0 auto; /* Center the content */
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; /* Prevent overflow caused by padding */
+}
+
+.journey-card {
+    width: 30%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 40px;
+    color: gray;
+    margin: 0 10px; /* Adjust margin to prevent overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box; /* Prevent padding from causing overflow */
+}
+
+.journey-image {
+    width: 100%; /* Make the image fit the container's width */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 25px;
+    margin-bottom: 25px;
+    object-fit: cover; /* Ensures the image scales properly */
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: black;
+}
+
+footer {
+    background: #333232;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+/* About Me Section */
+.about {
+    background: #f9f9f9;
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Goals Section */
+.goals {
+    background: #eaeaea;
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.goals h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.goals p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.goals-link {
+    margin-right: 50%;
+}
