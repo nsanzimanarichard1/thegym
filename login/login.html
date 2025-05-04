@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <meta name="description" content="Login to your account" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="./images/logo.png" width="300" />
+      </div>
+      <ul class="navbar-items">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#coding-journey">Journey</a></li>
+        <li><a href="#goals" class="goals-link">Goals</a></li>
+        <li><a href="#login">login</a></li>
+      </ul>
+    </nav>
+
+    <!-- Login form section -->
+    <div class="login-form">
+      <h2>Login to Your Account</h2>
+      <form action="/login" method="POST">
+        <label for="username">Username:</label></br>
+        <input type="text" id="username" name="username" required /></br>
+
+        <label for="password">Password:</label></br>
+        <input type="password" id="password" name="password" required /><br>
+
+        <button type="submit">Login</button>
+      </form>
+    </div>
